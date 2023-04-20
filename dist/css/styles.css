@@ -1,0 +1,105 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3b5998;
+  color: #fff;
+}
+header .logo img {
+  height: 40px;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+header .login form {
+  display: flex;
+}
+header .login form label {
+  display: none;
+}
+header .login form input[type=text],
+header .login form input[type=password] {
+  width: 100%;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+header .login form button[type=submit] {
+  background-color: #fff;
+  color: #3b5998;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+header .login form button[type=submit]:hover {
+  background-color: #e9ebee;
+}
+header .login p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+header .login p a {
+  color: #fff;
+  text-decoration: none;
+}
+header .login p a:hover {
+  text-decoration: underline;
+}
+
+main {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+main p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+main button {
+  background-color: #3b5998;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.2s ease-in-out;
+}
+main button:hover {
+  background-color: #2d4373;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-top: 1px solid #e6e6e6;
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
